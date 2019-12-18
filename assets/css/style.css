@@ -1,0 +1,100 @@
+
+
+/* -------------------------------------Colors */
+.bg-light {
+    background-color: #5349a0!important;
+}
+.body-color {
+    background-color: #edf0f2;
+    border: 3px #5349a0 solid;
+}
+
+.brand-color {
+    color: #5349a0;
+}
+/* Navbar  code color found in Stack Overflow */
+
+.navbar-default {
+  background-color: #edf0f2;
+}
+.navbar-default .navbar-brand {
+  color: #5349a0;
+}
+
+.navbar{ 
+    background-image: none;
+}
+/* -------------------------------------Navigation */
+
+.nav-menu {
+    display: inline;
+}
+
+
+/* -------------------------------------Heading */
+
+.rli {
+    max-width: 100%;
+    min-height: 400px;
+    position: sticky;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+@media(max-width: 1450px) {
+    .rli {
+        display: none;
+    }
+}
+
+.logo {
+    margin-top: 50px;
+    align-content: center;
+}
+
+.logo p {
+    text-align: center;
+    margin-left: 10%;
+}
+
+
+/* -------------------------------------Footer */
+
+/* -------------------------------------About Us */
+
+/* -------------------------------------Buttons */
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-purple:hover,
+.btn-purple:active,
+.btn-purple:focus,
+.btn-purple:active:focus {
+    color: #5349a0;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #ffffff;
+    border-color: orange;
+}
+
+
+
+/* -------------------------------------Discount Offer */
+
