@@ -1,18 +1,28 @@
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
 /* -------------------------------------Colors */
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+     color: #5349a0;    
+} 
+
+.navbar-light .navbar-brand {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    color: #5349a0;
+}
+
 .bg-light {
-    background-color: #5349a0!important;
+    background-color: #edf0f2!important;
 }
 .body-color {
     background-color: #edf0f2;
-    border: 3px #5349a0 solid;
+    border: 5px #5349a0 solid;
 }
 
 .brand-color {
     color: #5349a0;
 }
-/* Navbar  code color found in Stack Overflow */
 
 .navbar-default {
   background-color: #edf0f2;
@@ -24,6 +34,23 @@
 .navbar{ 
     background-image: none;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5349a0;
+     font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #5439a0;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.fa-credit-card:before {
+    content: "\f09d";
+    color: orange;
+}
 /* -------------------------------------Navigation */
 
 .nav-menu {
@@ -33,41 +60,90 @@
 
 /* -------------------------------------Heading */
 
-.rli {
-    max-width: 100%;
-    min-height: 400px;
-    position: sticky;
-    margin: 0 auto;
-    padding: 10px;
+
+.container-fluid {
+    height: 55vh;
+    margin: 0;
+    padding: 0;
 }
 
-@media(max-width: 1450px) {
-    .rli {
-        display: none;
-    }
-}
-
-.logo {
+.offer {
     margin-top: 50px;
     align-content: center;
 }
-
-.logo p {
+ 
+.offer p {
+    color: #5439a0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
     text-align: center;
-    margin-left: 10%;
+    padding: 2px;
 }
+
+#offer h5 {
+    color: #5439a0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 2px;
+}
+
+/* -------------------------------------Images */
+
+/* img {
+    vertical-align: middle;
+    border-style: none; 
+    border-radius: 50%;
+} */
 
 
 /* -------------------------------------Footer */
+
+.nav {
+    background-color: #edf0f2;
+    color: #5349a0;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+}
 
 /* -------------------------------------About Us */
 
 /* -------------------------------------Buttons */
 
-.btn {
+.btn-purple {
     display: inline-block;
+    font-family: "Montserrat",sans-serif;
     font-weight: 400;
-    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    color: #5349a0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.btn-purple:hover,
+.btn-purple:active,
+.btn-purple:focus,
+.btn-purple:active:focus {
+    color: #5349a0;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border-color: orange;
+}
+.btn-home {
+    display: inline-block;
+    color: #5439a0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
@@ -81,19 +157,47 @@
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.btn-purple:hover,
-.btn-purple:active,
-.btn-purple:focus,
-.btn-purple:active:focus {
+.btn-home:hover,
+.btn-home:active,
+.btn-home:focus,
+.btn-home:active:focus {
     color: #5349a0;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px;
     background-color: #ffffff;
     border-color: orange;
 }
 
+.btn-offer {
+    display: inline-block;
+    color: #5439a0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.5rem;
+    line-height: 1.75;
+    border-radius: .25rem;
+}
+
+.btn-offer:hover,
+.btn-offer:hover:active,
+.btn-offer:focus,
+.btn-offer:active:focus {
+    color: #5349a0;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border-color: orange;
+}
 
 
 /* -------------------------------------Discount Offer */
