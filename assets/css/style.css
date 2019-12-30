@@ -58,6 +58,9 @@
     background-color: #5439a0;
 }
 
+.nav-link {
+    padding: 0;
+}
 
 /* -------------------------------------Navigation */
 
@@ -168,6 +171,12 @@ a {
 ul {
     margin-top: 0;
     line-height: 2;
+}
+
+#where {
+    align-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 /* -------------------------------------Contact */
