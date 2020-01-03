@@ -16,8 +16,25 @@
     background-color: #5349a0!important;
 }
 .body-color {
+    color: slategray;
     background-color: #edf0f2;
     border: 5px #5349a0 solid;
+}
+
+#bgc1 {
+    background-color: #fafafa;
+    padding: 0;
+    
+}
+
+#bgc2 {
+    background-color: #ffffff;
+    padding: 0;
+}
+
+#bgc3 {
+    background-color: #b1e1fd30;
+    padding: 0;
 }
 
 .brand-color {
@@ -62,6 +79,10 @@
     padding: 0;
 }
 
+a:hover {
+    color: orange;
+}
+
 /* -------------------------------------Navigation */
 
 .nav-menu {
@@ -81,28 +102,64 @@
     padding: 0;
 }
 
+.cta {
+    height: 70vh;
+    background-image: url("../images/cover+.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fafafa;
+    margin-top: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .offer {
+    /* color: slategray; */
+    font-family: "Montserrat", sans-serif;
     margin-top: 50px;
     align-content: center;
 }
  
 .offer p {
-    color: #5439a0;
+    /* color: slategray; */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     text-align: center;
     padding: 2px;
 }
 
-#offer h5 {
+/* #offer h5 {
     color: #5439a0;
-    font-family: "Sansita", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     text-align: center;
     padding: 2px;
+} */
+
+/* -------------------------------------Sections */
+
+section {
+    margin: 20px;
 }
 
 /* -------------------------------------Images */
+
+.rotateimg3 {
+  -webkit-transform:rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+.rotateimg-3 {
+  -webkit-transform:rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
 
 /* img {
     vertical-align: middle;
@@ -122,13 +179,14 @@
 /* -------------------------------------About Us */
 
 .abt {
-    color: #5349a0; 
+    /* color: slategray;  */
 }
 
 .abt h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     text-align: center;
+    margin: 20px;
 }
 
 .abt p li {
@@ -139,8 +197,9 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 0;
-
+    font-size: 1.25em;
 }
+
 a {
     color: #5439a0;
     text-decoration: none;
@@ -184,7 +243,7 @@ ul {
 /* adapted from Rosie */
 
 .contact-heading {
-    color:  #5439a0;
+    /* color:  slategray; */
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     margin-top: 25px;
@@ -213,7 +272,7 @@ ul {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.conbg {
+/* .conbg {
     background-image: url("../images/cover.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -222,7 +281,7 @@ ul {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-} 
+}  */
 
 
 /* -------------------------------------Buttons */
@@ -324,15 +383,8 @@ ul {
 /* Background image insertion adapted from Rosie project */
 
 .priv {
-    color: #777777;
-    background-image: url(" ../images/privacy.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    color: slategray;
+    margin: 10px;
 } 
 
 /* Overlay adapted from the Whiskey drop project */
@@ -346,10 +398,18 @@ ul {
     background-color: rgba(0,0,0,0.4);
 }
 
-.priv h1, h2, h3, h4, h5, h6 {
+.priv h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     text-align: center;
+    margin: 20px;
+}
+
+.priv h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: left;
+    margin: 20px;
 }
 
 .priv p {
@@ -360,6 +420,5 @@ ul {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 0;
-
 }
 
