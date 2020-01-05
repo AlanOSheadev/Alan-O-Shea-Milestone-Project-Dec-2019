@@ -83,6 +83,17 @@ a:hover {
     color: orange;
 }
 
+/* Overlay adapted from the Whiskey drop project */
+
+.overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
 /* -------------------------------------Navigation */
 
 .nav-menu {
@@ -102,35 +113,52 @@ a:hover {
     padding: 0;
 }
 
+/* Background image insertion adapted from Rosie project */
+
 .cta {
-    height: 70vh;
+    height: 85vh;
     background-image: url("../images/cover+.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    color: #fafafa;
-    margin-top: 20px auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    justify-items: center;
+    border-radius: 15px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
+
+.cta h3 {
+    justify-items: center;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+}
+
+.cta p {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+} 
+
+
 .offer {
-    /* color: slategray; */
     font-family: "Montserrat", sans-serif;
     margin-top: 50px;
     align-content: center;
 }
  
 .offer p {
-    /* color: slategray; */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     text-align: center;
     padding: 2px;
 }
-
-/* #offer h5 {
-    color: #5439a0;
+/* 
+#offer h5 {
+    color: #ffffff;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     text-align: center;
@@ -140,7 +168,7 @@ a:hover {
 /* -------------------------------------Sections */
 
 section {
-    margin: 20px;
+    margin: 1%;
 }
 
 /* -------------------------------------Images */
@@ -161,11 +189,9 @@ section {
   transform: rotate(-3deg);
 }
 
-/* img {
-    vertical-align: middle;
-    border-style: none; 
-    border-radius: 50%;
-} */
+img {
+    border-radius: 10px;
+}
 
 
 /* -------------------------------------Footer */
@@ -189,6 +215,10 @@ section {
     margin: 20px;
 }
 
+.abt ul {
+    font-size: 1.25em
+}
+
 .abt p li {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -197,7 +227,6 @@ section {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 0;
-    font-size: 1.25em;
 }
 
 a {
@@ -380,23 +409,12 @@ ul {
 
 /* -------------------------------------Privacy */
 
-/* Background image insertion adapted from Rosie project */
+
 
 .priv {
     color: slategray;
     margin: 10px;
 } 
-
-/* Overlay adapted from the Whiskey drop project */
-
-.overlay {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.4);
-}
 
 .priv h1 {
     font-family: "Montserrat", sans-serif;
