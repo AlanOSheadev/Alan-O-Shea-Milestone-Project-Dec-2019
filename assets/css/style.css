@@ -15,31 +15,6 @@
 .bg-light {
     background-color: #5349a0!important;
 }
-.body-color {
-    color: slategray;
-    background-color: #edf0f2;
-    border: 5px #5349a0 solid;
-}
-
-#bgc1 {
-    background-color: #fafafa;
-    padding: 0;
-    
-}
-
-#bgc2 {
-    background-color: #ffffff;
-    padding: 0;
-}
-
-#bgc3 {
-    background-color: #b1e1fd30;
-    padding: 0;
-}
-
-.brand-color {
-    color: #ffffff;
-}
 
 .navbar-default {
   background-color: #edf0f2;
@@ -50,6 +25,11 @@
 
 .navbar { 
     background-image: none;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    height: fit-content;
+    z-index: 1;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -62,6 +42,38 @@
     color: #ffffff;
     background-color: #5349a0;
     border-radius: 15px;
+}
+
+.navbar-light .navbar-toggler {
+    color: orange;
+    border-color: #000000;
+    margin-right: 10px;
+}
+
+.body-color {
+    color: rgb(57, 68, 80);
+    background-color: #edf0f2;
+    border: 2% #5349a0 solid;
+}
+
+#bgc1 {
+    background-color: #4975cf;
+    padding: 0;
+    
+}
+
+#bgc2 {
+    background-color: #b6622b;
+    padding: 0;
+}
+
+#bgc3 {
+    background-color: #f3351430;
+    padding: 0;
+}
+
+.brand-color {
+    color: #ffffff;
 }
 
 .fa-credit-card:before {
@@ -81,6 +93,16 @@
 
 a:hover {
     color: orange;
+}
+
+/* -------------------------------------Body */
+
+body {
+    overflow-y: scroll;
+}
+
+.row {
+    margin: 3%;
 }
 
 /* Overlay adapted from the Whiskey drop project */
@@ -116,13 +138,13 @@ a:hover {
 /* Background image insertion adapted from Rosie project */
 
 .cta {
-    height: 85vh;
+    margin-top: 8%;
+    height: 95vh;
     background-image: url("../images/cover+.jpg");
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    text-align: center;
-    align-items: center; 
+    text-align: center; 
     justify-items: center;
     border-radius: 15px;
     -webkit-background-size: cover;
@@ -133,14 +155,18 @@ a:hover {
 
 
 .cta h3 {
-    justify-items: center;
+    margin-top: 19%;
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .cta p {
     color: #ffffff;
     font-family: "Roboto", sans-serif;
+    margin-bottom: 5%;
 } 
 
 
@@ -164,12 +190,18 @@ a:hover {
     text-align: center;
     padding: 2px;
 } */
+/* -------------------------------------Rows */
+
+.row {
+    margin: 0;
+}
+
 
 /* -------------------------------------Sections */
 
-section {
+/* section {
     margin: 1%;
-}
+} */
 
 /* -------------------------------------Images */
 
@@ -205,7 +237,7 @@ img {
 /* -------------------------------------About Us */
 
 .abt {
-    /* color: slategray;  */
+    margin-top: 0;
 }
 
 .abt h1, h2, h3, h4, h5, h6 {
@@ -267,22 +299,34 @@ ul {
     margin-right: 25%;
 }
 
+/* -------------------------------------Features */
+
+.feat {
+    text-align: center;
+    align-content: center; 
+    justify-items: center;
+}
+
+
+
 /* -------------------------------------Contact */
 
 /* adapted from Rosie */
 
 .contact-heading {
-    /* color:  slategray; */
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    margin-top: 25px;
+    margin-top: 64px;
     margin-bottom: 20px;
 }
 
 .center-form {
+    height: 70vh;
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+    align-items: center; 
+    justify-items: center;
 }
 
 .form-control {
@@ -301,8 +345,8 @@ ul {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-/* .conbg {
-    background-image: url("../images/cover.jpg");
+.conbg {
+    background-image: url("../images/logow.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,7 +354,7 @@ ul {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-}  */
+} 
 
 
 /* -------------------------------------Buttons */
@@ -412,8 +456,9 @@ ul {
 
 
 .priv {
+    margin-top: 64px;
     color: slategray;
-    margin: 10px;
+    
 } 
 
 .priv h1 {
@@ -427,7 +472,7 @@ ul {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     text-align: left;
-    margin: 20px;
+    margin-left: 5%;
 }
 
 .priv p {
