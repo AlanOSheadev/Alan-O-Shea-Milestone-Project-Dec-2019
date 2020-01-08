@@ -302,9 +302,11 @@ ul {
 /* -------------------------------------Features */
 
 .feat {
+    display: flex;
     text-align: center;
     align-content: center; 
     justify-items: center;
+    width: 100%;
 }
 
 
