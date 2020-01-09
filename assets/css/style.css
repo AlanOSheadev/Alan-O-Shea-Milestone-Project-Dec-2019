@@ -57,7 +57,7 @@
 .body-color {
     color: rgb(57, 68, 80);
     background-color: #edf0f2;
-    border: 2% #5349a0 solid;
+    border: 3% #5349a0 solid;
 }
 
 #bgc1 {
@@ -143,8 +143,8 @@ body {
 /* Background image insertion adapted from Rosie project */
 
 .cta {
-    margin-top: 8%;
-    height: 95vh;
+    margin-top: 0;
+    height: 80vh;
     background-image: url("../images/cover+.jpg");
     background-position: center;
     background-repeat: no-repeat;
