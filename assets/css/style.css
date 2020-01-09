@@ -60,18 +60,18 @@
     border: 3% #5349a0 solid;
 }
 
-#bgc1 {
+.bgc1 {
     background-color: #fafafa;
     padding: 0;
     
 }
 
-#bgc2 {
+.bgc2 {
     background-color: #df1f69;
     padding: 0;
 }
 
-#bgc3 {
+.bgc3 {
     background-color: #f3351430;
     padding: 0;
     margin: 0;
