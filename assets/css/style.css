@@ -70,6 +70,7 @@
 #bgc3 {
     background-color: #f3351430;
     padding: 0;
+    margin: 0;
 }
 
 .brand-color {
@@ -244,7 +245,7 @@ img {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     text-align: center;
-    margin: 20px;
+    margin: 5%;
 }
 
 .abt ul {
@@ -303,10 +304,12 @@ ul {
 
 .feat {
     display: flex;
+    align-items: flex-start;
+    margin: 5px;
     text-align: center;
     align-content: center; 
     justify-items: center;
-    width: 100%;
+
 }
 
 
