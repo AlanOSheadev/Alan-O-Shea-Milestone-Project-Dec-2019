@@ -12,6 +12,10 @@
     color: #ffffff;
 }
 
+.navbar-toggler-icon {
+    color: #ffffff
+}
+
 .bg-light {
     background-color: #5349a0!important;
 }
@@ -46,7 +50,7 @@
 
 .navbar-light .navbar-toggler {
     color: orange;
-    border-color: #000000;
+    border-color: #ffffff;
     margin-right: 10px;
 }
 
@@ -114,7 +118,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.5);
 }
 
 /* -------------------------------------Navigation */
