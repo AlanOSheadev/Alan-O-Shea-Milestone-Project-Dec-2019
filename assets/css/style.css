@@ -57,13 +57,13 @@
 }
 
 #bgc1 {
-    background-color: #4975cf;
+    background-color: #fafafa;
     padding: 0;
     
 }
 
 #bgc2 {
-    background-color: #b6622b;
+    background-color: #df1f69;
     padding: 0;
 }
 
@@ -245,7 +245,7 @@ img {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     text-align: center;
-    margin: 5%;
+    margin: 3%;
 }
 
 .abt ul {
@@ -298,6 +298,15 @@ ul {
     align-content: center;
     margin-left: 25%;
     margin-right: 25%;
+}
+
+.col-1 {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    margin-top: 63px;
 }
 
 /* -------------------------------------Features */
