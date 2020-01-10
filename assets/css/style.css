@@ -93,6 +93,13 @@
     padding: 0;
 }
 
+a {
+    color: #5439a0;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+
 a:hover {
     color: orange;
 }
@@ -105,6 +112,11 @@ body {
 
 .row {
     margin: 3%;
+}
+
+li {
+    list-style: none;
+    padding: 0; 
 }
 
 /* Overlay adapted from the Whiskey drop project */
@@ -209,10 +221,21 @@ body {
   transform: rotate(-3deg);
 }
 
-img {
+.img {
     border-radius: 10px;
+    height: 100%;
+    width: 100%;
 }
 
+.video {
+    height: 100%;
+    width: 100%;
+}
+
+.videoa {
+    height: 80%;
+    width: 80%;
+}
 
 /* -------------------------------------Footer */
 
@@ -247,13 +270,6 @@ img {
     margin-right: 5%;
     margin-bottom: 0;
 }
-
-a {
-    color: #5439a0;
-    text-decoration: none;
-    background-color: transparent;
-}
-
 
 @media (min-width: 768px)
 .col-md-4 {
