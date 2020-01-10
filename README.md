@@ -1,9 +1,9 @@
 # Rodfendr Promotion Page
 ## First Milestone Project 2020: User-Centric Frontend Development - Code Institute.
-### Demo
-Link to demo [here](https://gph.is/g/Z2dYQO5).
+### Responsive Design
 
-![](assets/images/responsive.png)
+![Responsive Design](https://raw.githubusercontent.com/AlanOSheadev/Alan-O-Shea-Milestone-Project-Dec-2019/master/assets/images/responsive.png "Responsive Design")
+
 ### UX
 User Expectations
 A customer visiting my site will want to get as much information as possible in a short space of time.  The person visiting the site wants to know what is on offer.  They are expecting to see photos and videos of the product, they will also expect a site that loads quickly with fast acting links.  In order to make a purchase customers visiting the site want to know that it’s safe to purchase from it.
@@ -14,10 +14,10 @@ The site is designed to promote Rodfendr the lightest fishing rod rest in the wo
 ### Structure
 I immediately want the visitor to see the benefits of using Rodfendr, they can see me relaxing and using Rodfendr to protect my fishing rod.  The video after the heading is about 30 seconds long and quickly explains Rodfendr, there are some photos with small text explaining more about Rodfendr in the About section, followed by some of the features and an introduction to an article written by Off The Scale fishing magazine. These features have accompanying photos and videos.
 ### Skeleton
-1. [](https://www.canva.com/design/DADuLl-FJlI/s7WVrLNGQWOaICIwRAdxBA/view?utm_content=DADuLl-FJlI&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)Landing Page wireframe
-2. [](https://www.canva.com/design/DADwgD3baYU/ir7F4jxO99XHOhXQ1YJpmw/view?utm_content=DADwgD3baYU&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)About wireframe
-3. [](https://www.canva.com/design/DADwgJjSAHc/SIu2INajjyGezQ6Ib_P1TA/view?utm_content=DADwgJjSAHc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)Contact wireframe
-4. [](https://www.canva.com/design/DADwgDVISec/Z3D0Wg87DtTWbIuNqRPuiA/view?utm_content=DADwgDVISec&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)Privacy wireframe
+1. [Landing Page wireframe](https://www.canva.com/design/DADuLl-FJlI/s7WVrLNGQWOaICIwRAdxBA/view?utm_content=DADuLl-FJlI&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+2. [About wireframe](https://www.canva.com/design/DADwgD3baYU/ir7F4jxO99XHOhXQ1YJpmw/view?utm_content=DADwgD3baYU&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+3. [Contact wireframe](https://www.canva.com/design/DADwgJjSAHc/SIu2INajjyGezQ6Ib_P1TA/view?utm_content=DADwgJjSAHc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+4. [Privacy wireframe](https://www.canva.com/design/DADwgDVISec/Z3D0Wg87DtTWbIuNqRPuiA/view?utm_content=DADwgDVISec&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 ### Surface
 The colors were chosen to contrast easily and make it easy to locate the links especially the “Buy now” link which has an extra orange icon.  The background colors and font colors were chosen to make it easy on the visitors eyes and I used photos and videos instead of a lot of sentences so as not to overload the visitor
 ### Technologies
@@ -26,7 +26,7 @@ The colors were chosen to contrast easily and make it easy to locate the links e
 3. Bootstrap
 4. YouTube
 5. Shopify 
-6. [](www.rodfendr.com)www.Rodfendr.com is my ecommerce site.
+6. [www.Rodfendr.com](www.rodfendr.com) is my ecommerce site.
 7. Canva
 8. Fontawesome
 9. Google Fonts
