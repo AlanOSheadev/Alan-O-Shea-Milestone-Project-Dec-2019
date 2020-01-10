@@ -31,7 +31,7 @@ The colors were chosen to contrast easily and make it easy to locate the links e
 8. Fontawesome
 9. Google Fonts
 ### Features
- The links to my main website Rodfendr.com are used to give the user a full ecommerce experience.  All the social media links arrive at Rodfendr pages.
+ The links to my main website www.Rodfendr.com are used to give the user a full ecommerce experience.  All the social media links arrive at Rodfendr owned pages. 
 ### Features Left to Implement
 I would like to add a cookie bar to make it a legal site.  I would also like to add some of my other products to give customers a wider choice.
 ### Testing
@@ -41,13 +41,13 @@ All links will open in a new tab using - 'target="_blank"'. All links have been 
 ### Deployment
 I used Github to host this website.  The site is automatically updated and all changes are logged once a commit has been made to the master branch.  Periodically throughout the development of the site changes and updates have been added using the git commit -m “” command. The landing page is called index.html, which is a required attribute to allow the site to deploy correctly.
 ## Credits
-- This site uses Bootstrap, fontawesome, hover, javascript for the hamburger menu. 
-- I used code I found on Blacboard to stop my youtube video from continuing to play after it ends 0&rel=0. 
-- I used code from Computer Hope to rotate images "rotateimage".
-- All my code has been taken from the previous projects I have taken part in as well as Bootstrap.
-- I have modified the code I used and added my own styling to suit the website. 
-- I have left uncomments throughout the code where I have used code not my own. 
-- I have used google fonts for the main fonts and font awesome for the icons.
+1. This site uses Bootstrap, fontawesome, hover, javascript for the hamburger menu. 
+2. I used code I found on Blacboard to stop my youtube video from continuing to play after it ends 0&rel=0. 
+3. I used code from Computer Hope to rotate images "rotateimage".
+4. All my code has been taken from the previous projects I have taken part in as well as Bootstrap.
+5. I have modified the code I used and added my own styling to suit the website. 
+6. I have left uncomments throughout the code where I have used code not my own. 
+7. I have used google fonts for the main fonts and font awesome for the icons.
 
 ### Content
 All content on the site has been created by me or I have permission to use it.  
