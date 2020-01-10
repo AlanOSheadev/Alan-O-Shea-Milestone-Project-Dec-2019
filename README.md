@@ -31,8 +31,8 @@ The colors were chosen to contrast easily and make it easy to locate the links e
 8. Fontawesome
 9. Google Fonts
 ### Features
-This site uses Bootstrap, fontawesome, hover, javascript for hamburger menu.I used code I found on  Blacboard to stop my youtube video from continuing to play after it ends 0&rel=0.I used code from Computer Hope to rotate images. All my code has been taken from the previous projects I have taken part in as well as Bootstrap I have modified the code I used and added my own styling to suit the website. I have left uncomments throughout the code where I have used code not my own. I have used google fonts for the main fonts and font awesome for the icons. The links to my main website Rodfendr.com are used to give the user a full ecommerce experience.  All the social media links arrive at Rodfendr pages.
-Features Left to Implement
+ The links to my main website Rodfendr.com are used to give the user a full ecommerce experience.  All the social media links arrive at Rodfendr pages.
+### Features Left to Implement
 I would like to add a cookie bar to make it a legal site.  I would also like to add some of my other products to give customers a wider choice.
 ### Testing
 This site was tested across multiple browsers (Chrome, Safari, Microsoft Edge, FireFox) and on multiple mobile devices (iPhone 4, 5/SE,6,7,8 iPhone 6,7,8 plus, iPhone X : Chrome and Safari, iPad, iPad Pro,Samsung Galaxy Slll,5S) to ensure compatibility and responsiveness.
@@ -40,7 +40,15 @@ I have used the 'required' attribute in the contact form and it is added to the 
 All links will open in a new tab using - 'target="_blank"'. All links have been manually tested to ensure that they are pointing to the correct destination. The article by Off the Scale, and the customer opinions are pdf’s and can be downloaded if the visitor wishes to view them later. 
 ### Deployment
 I used Github to host this website.  The site is automatically updated and all changes are logged once a commit has been made to the master branch.  Periodically throughout the development of the site changes and updates have been added using the git commit -m “” command. The landing page is called index.html, which is a required attribute to allow the site to deploy correctly.
-### Credits
+## Credits
+- This site uses Bootstrap, fontawesome, hover, javascript for the hamburger menu. 
+- I used code I found on Blacboard to stop my youtube video from continuing to play after it ends 0&rel=0. 
+- I used code from Computer Hope to rotate images "rotateimage".
+- All my code has been taken from the previous projects I have taken part in as well as Bootstrap.
+- I have modified the code I used and added my own styling to suit the website. 
+- I have left uncomments throughout the code where I have used code not my own. 
+- I have used google fonts for the main fonts and font awesome for the icons.
+
 ### Content
 All content on the site has been created by me or I have permission to use it.  
 ### Media
